@@ -94,7 +94,7 @@ for(var i = 0; i < square.length; i++) {
       h1.style.background = clickedColor;
     }else{
       this.style.background = "#232323";
-        alert("Katgya tumhara dubara kosis kro 🫂");
+        alert("Dubara kosis kro 🫂");
     }
   })
 }
