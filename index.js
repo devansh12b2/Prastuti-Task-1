@@ -21,11 +21,28 @@ function modeSelect() {
     }
 }
 
+function sizekmezz(x) {
+    if(x.matches)
+    {
+        optns.style.gridTemplateRows = "100px 100px 100px";
+        optns.style.gridTemplateColumns = "100px";
+    }
+    else
+    {
+        optns.style.gridTemplateRows = "300px";
+        optns.style.gridTemplateColumns = "300px 300px 300px";
+      }
+}
 function easymode(){
   numSquares = 3;
   colors = generateRandomColors(numSquares);
   pickedColor = pickColor();
-  rgbCode.textContent = pickedColor;
+    rgbCode.textContent = pickedColor;
+    var x = window.matchMedia("(max-width: 700px)");
+
+    sizekmezz(x);
+    x.addListener(sizekmezz);
+
   for(var i = 0; i < square.length; i++) {
     if (colors[i]) {
       square[i].style.background = colors[i];
