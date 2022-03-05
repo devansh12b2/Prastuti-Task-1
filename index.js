@@ -37,9 +37,15 @@ function easymode(){
 
 function sizekm(x) {
     if(x.matches)
-        optns.style.gridTemplateRows = "100px 100px 100px 100px 100px 100px";
+    {
+        optns.style.gridTemplateRows = "100px 100px 100px";
+        optns.style.gridTemplateColumns = "100px 100px";
+    }
     else
+    {
         optns.style.gridTemplateRows = "200px 200px";
+        optns.style.gridTemplateColumns = "200px 200px 200px";
+      }
 }
 function hardmode(){
 
