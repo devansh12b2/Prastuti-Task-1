@@ -4,6 +4,7 @@
   text-transform: uppercase;
   align-items: center;
 }
+//h1 style
 h1 {
   font-size: 40px;
   color: black;
@@ -62,7 +63,7 @@ label {
   -webkit-transition: background 0.7s;
   -moz-transition: background 0.7s;
 }
-
+//styles for all buttons in the project
 button {
   border: none;
   background: none;
@@ -84,7 +85,7 @@ button {
   width: 100%;
   align-items: center;
 }
-
+//white hover button
 button:hover {
   color: white;
   background: steelblue;
