@@ -2,7 +2,7 @@
 
 Responsive in all devices
 
-//changed btn
-//change ui- add combine div, btn- add bootstrap
-// add sound- win n lose
+//changed btn- combine div, btn- bootstrap
+// added sound- win n lose
 //generate color from code
+// hue and shades

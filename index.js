@@ -86,6 +86,8 @@ function hardmode(){
 
 resetButton.addEventListener("click", function(){
   //generate all new colors
+  var w=new Audio("sound/win.wav");
+       w.play();
   colors = generateRandomColors(numSquares);
   //pick a new random color from the array
   pickedColor = pickColor();
@@ -111,13 +113,17 @@ for(var i = 0; i < square.length; i++) {
     var clickedColor = this.style.background;
     //compare color to pickedColor
     if (clickedColor === pickedColor) {
-        alert("GOOD JOB!!!!!🎆🎆🎆🎆🎆🎆🎇🎉🎉🎉🎉🎉🎉🎉🎉🎉");
+      alert("GOOD JOB!!!!!🎆🎆🎆🎆🎆🎆🎇🎉🎉🎉🎉🎉🎉🎉🎉🎉");
+       var w=new Audio("sound/win.wav");
+       w.play();
       resetButton.textContent = "New Game";
       changeColors(clickedColor);
       first.style.background = clickedColor;
     }else{
       this.style.background = "#232323";
-        alert("Dubara kosis kro 🫂");
+      alert("Dubara kosis kro 🫂");
+       var l=new Audio("sound/los.wav");
+       l.play();
     }
   })
 }
