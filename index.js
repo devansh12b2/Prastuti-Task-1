@@ -96,7 +96,7 @@ resetButton.addEventListener("click", function(){
   for (var i = 0; i < square.length; i++) {
     square[i].style.background = colors[i];
   }
-  h1.style.background = "whitesmoke";
+  first.style.background = "whitesmoke";
 })
 
 rgbCode.textContent = pickedColor;
@@ -114,7 +114,7 @@ for(var i = 0; i < square.length; i++) {
         alert("GOOD JOB!!!!!🎆🎆🎆🎆🎆🎆🎇🎉🎉🎉🎉🎉🎉🎉🎉🎉");
       resetButton.textContent = "New Game";
       changeColors(clickedColor);
-      h1.style.background = clickedColor;
+      first.style.background = clickedColor;
     }else{
       this.style.background = "#232323";
         alert("Dubara kosis kro 🫂");

@@ -3,8 +3,10 @@
   /* padding: 5px 0; */
   text-transform: uppercase;
   align-items: center;
+  background-color: whitesmoke;
+  padding: 50px 0;
 }
-//added the functionality of H1
+
 h1 {
   font-size: 40px;
   color: black;
@@ -13,7 +15,7 @@ h1 {
   /* background-color: steelblue; */
   margin: 0px;
   padding: 0px;
-  background-color: whitesmoke;
+  
 }
 body {
   background-color: lightgray;
@@ -21,7 +23,9 @@ body {
   align-content: center;
   max-width: 100%;
 }
+
 .ques {
+  margin:30px auto 20px;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -32,6 +36,7 @@ label {
   font-size: 20px;
 }
 .modeGame {
+  margin: 20px 0;
   display: flex;
   width: 100%;
   font-size: 16px;
@@ -59,12 +64,42 @@ label {
   float: left;
   margin: 2%;
   border-radius: 10%;
+  border-color:black;
   transition: background 0.7s;
   -webkit-transition: background 0.7s;
   -moz-transition: background 0.7s;
 }
-//styles for all buttons in the project
-button {
+
+.btn{
+  position: relative;
+  top:auto;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top:40px;
+}
+.btn:active {
+  box-shadow: none;
+  animation-name: btn-flash;
+  animation-duration: 0.5s;
+  /* Change to make slower/faster */
+}
+@keyframes btn-flash {
+  from {
+    color: white;
+    outline: 1px solid white;
+    background: grey;
+    outline-offset: 0;
+  }
+
+  to {
+    color: black;
+    outline: 1px solid transparent;
+    background: grey;
+    outline-offset: -4px;
+  }
+}
+/* button {
   border: none;
   background: none;
   text-transform: uppercase;
@@ -85,11 +120,11 @@ button {
   width: 100%;
   align-items: center;
 }
-//white hover button
+
 button:hover {
   color: white;
   background: steelblue;
-}
+} */
 
 @media screen and (max-width: 700px) {
   h1 {
