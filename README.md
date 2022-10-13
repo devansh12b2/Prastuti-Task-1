@@ -1,8 +1,6 @@
 # Prastuti-Task-1
 
-Responsive in all devices
-
-//changed btn- combine div, btn- bootstrap
-// added sound- win n lose
-//generate color from code
-// hue and shades
+- Responsive in all devices
+- enhanced ui
+- color game with sound effects
+- get colorcode from color

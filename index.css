@@ -6,6 +6,13 @@
   background-color: whitesmoke;
   padding: 50px 0;
 }
+.color-box{
+text-align: center;
+  /* padding: 5px 0; */
+  text-transform: uppercase;
+  align-items: center;
+  padding: 50px 0;
+}
 
 h1 {
   font-size: 40px;
