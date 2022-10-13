@@ -109,6 +109,7 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+/* gradients, tweak as needed based on which browsers you want to support */
    .colorPicker .twod .bg2 {
        z-index: 1;
        background: -moz-linear-gradient(top,

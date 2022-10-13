@@ -1,4 +1,4 @@
-
+// colorjoe for generating colorcode from colors
       class ColorPicker {
         constructor(root) {
           this.root = root;
@@ -36,7 +36,7 @@
             this.colorjoe.set(color);
           }
         }
-
+//inert functionality
         getSavedColors() {
           const saved = JSON.parse(
             localStorage.getItem("colorpicker-saved") || "[]"
