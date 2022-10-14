@@ -70,7 +70,7 @@ label {
   -moz-transition: background 0.7s;
 }
 
-.btn{
+.reset{
   position: relative;
   top:auto;
   left: 50%;
@@ -78,7 +78,7 @@ label {
   transform: translate(-50%, -50%);
   margin-top:40px;
 }
-.btn:active {
+.reset:active {
   box-shadow: none;
   animation-name: btn-flash;
   animation-duration: 0.5s;
