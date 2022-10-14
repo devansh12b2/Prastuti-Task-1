@@ -1,10 +1,13 @@
-.main-heading {
+.main-heading, .color-box {
   text-align: center;
   /* padding: 5px 0; */
   text-transform: uppercase;
   align-items: center;
-  background-color: whitesmoke;
   padding: 50px 0;
+}
+
+.main-heading{
+    background-color: whitesmoke;
 }
 
 h1 {
@@ -12,17 +15,14 @@ h1 {
   color: black;
   line-height: 1.5;
   text-align: center;
-  /* background-color: steelblue; */
-  margin: 0px;
-  padding: 0px;
-  
 }
-body {
+
+/* body {
   background-color: lightgray;
   align-items: center;
   align-content: center;
   max-width: 100%;
-}
+} */
 
 .ques {
   margin:30px auto 20px;
@@ -99,32 +99,6 @@ label {
     outline-offset: -4px;
   }
 }
-/* button {
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  height: 100%;
-  font-weight: 700;
-  color: steelblue;
-  letter-spacing: 1px;
-  font-size: inherit;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  outline: none;
-  align-self: center;
-  font-size: 24px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  width: 100%;
-  align-items: center;
-}
-
-button:hover {
-  color: white;
-  background: steelblue;
-} */
 
 @media screen and (max-width: 700px) {
   h1 {
